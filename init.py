@@ -28,9 +28,9 @@ jBcHChain = {
         "$ref": "web3.GethIPC"
     }
 }
-    
+
 jChains = jPop['chains']
-jChains['bch'] = jBcHChain
+jChains['tester'] = jBcHChain
 
 f = open('populus.json', 'w')
 json.dump(jPop, f, indent=2)

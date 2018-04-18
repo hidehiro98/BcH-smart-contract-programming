@@ -6,7 +6,7 @@ class Greeter:
 
     def __init__(self, account, passphrase):
         project = Project()
-        chain_name = "bch"
+        chain_name = "tester"
 
         with project.get_chain(chain_name) as chain:
             GreeterFactory = chain.provider.get_contract_factory('Greeter')
