@@ -8,7 +8,7 @@ proc = subprocess.Popen([
     '--port', '30303',
     '--maxpeers', '0',
     '--nodiscover',
-    '--etherbase', '0x167576ad3ee015591cbd90ad3afa1fff6ac0d674',
+    '--etherbase', '0x857b97371202791b18d415179c0fbfe16d28802d',
     '--mine',
 ], stderr=log)
 

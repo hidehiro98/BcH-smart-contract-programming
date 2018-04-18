@@ -39,7 +39,7 @@ class Greeter:
 if __name__ == '__main__':
 
     # simple test code and usage
-    a = Greeter('0x167576ad3ee015591cbd90ad3afa1fff6ac0d674', 'appendix1')
+    a = Greeter('0x857b97371202791b18d415179c0fbfe16d28802d', 'password')
 
     print(a.greet())
     a.setGreeting('How are you?')
